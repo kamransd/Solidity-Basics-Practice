@@ -8,7 +8,7 @@ contract Bank {
 // modifier function 
 
     // modifier() is a function of solidity. Explain: 
-       If you have the power to transfer the token, then you can use the modifier function.// 
+       If you have the power to transfer the token, then you can use the modifier function. 
 
     modifier onlyowner {
         require(owner == msg.sender, "you are not the owner");
